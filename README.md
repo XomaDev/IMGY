@@ -11,7 +11,7 @@ Now to decode, we should go through every pixel of the image to get the RGB valu
 
 ## HOW TO
 
-Initialize the `IMGYEncoder` with the parameters input file and output image
+To encode, initialize the `IMGYEncoder` with the parameters input file and output image
 
 ```
 IMGYEncoder encoder = new IMGYEncoder(originalFile, processedFile);
@@ -25,3 +25,8 @@ Once you've initialized the encoder, start the process through `startProcess(`) 
 ```
 encoder.startProcess();
 ```
+
+<br>
+<br>
+
+To decode, intialize `IMGYDecoder` with the parameters encoded file and the orginal decoded file
