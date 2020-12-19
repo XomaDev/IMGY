@@ -27,6 +27,9 @@ encoder.startProcess();
 ```
 
 <br>
-<br>
 
 To decode, intialize `IMGYDecoder` with the parameters encoded file and the orginal decoded file
+
+```
+IMGYDecoder decoder = new IMGYDecoder(encodedFile, orginalDecodedFile);
+```
