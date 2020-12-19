@@ -33,6 +33,7 @@ To decode, intialize `IMGYDecoder` with the parameters encoded file and the orgi
 ```
 IMGYDecoder decoder = new IMGYDecoder(encodedFile, orginalDecodedFile);
 ```
+<br>
 
 As same as the encoder, use `startProcess()`method.
 
