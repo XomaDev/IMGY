@@ -20,7 +20,7 @@ IMGYEncoder encoder = new IMGYEncoder(originalFile, processedFile);
 ```
 <br>
 
-Once you've initialized the encoder, start the process through `startProcess(`) method. Make sure you have used added `IOException` or used `try-catch` in you're code
+Once you've initialized the encoder, start the process through `startProcess()` method. Make sure you have used added `IOException` or used `try-catch` in you're code
 
 ```
 encoder.startProcess();
@@ -32,4 +32,10 @@ To decode, intialize `IMGYDecoder` with the parameters encoded file and the orgi
 
 ```
 IMGYDecoder decoder = new IMGYDecoder(encodedFile, orginalDecodedFile);
+```
+
+As same as the encoder, use `startProcess()`method.
+
+```
+decoder.startProcess();
 ```
