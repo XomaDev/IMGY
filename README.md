@@ -15,6 +15,6 @@ Initialize the IMGYEncoder with the parameters input file and output image
 
 ```
 IMGYEncoder encoder = new IMGYEncoder(originalFile, processedFile);
-```
 
-<i>Make sure you do not use the  Encoder and Decoder because it may lead to FileNotFoundException</i>
+// NOTE : Make sure you do not use the Encoder and Decoder because it may lead to FileNotFoundException
+```
