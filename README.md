@@ -35,7 +35,7 @@ IMGYDecoder decoder = new IMGYDecoder(encodedFile, orginalDecodedFile);
 ```
 <br>
 
-As same as the encoder, use `startProcess()`method.
+As same as the encoder, use `startProcess()` method.
 
 ```
 decoder.startProcess();
