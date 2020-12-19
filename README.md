@@ -8,3 +8,13 @@ At first, the input file is read and compressed the data to reduce the size. The
 Now we have the file encoded as an image! HEHE!
 
 Now to decode, we should go through every pixel of the image to get the RGB values which were encoded. The values parsed to bytes to obtain the base64. Then the base64 is decoded and uncompressed to its original form as bytes, finally, it is written back into file.
+
+## HOW TO
+
+Initialize the IMGYEncoder with the parameters input file and output image
+
+```
+IMGYEncoder encoder = new IMGYEncoder(originalFile, processedFile);
+```
+
+<i>Make sure you do not use the  Encoder and Decoder because it may lead to FileNotFoundException</i>
