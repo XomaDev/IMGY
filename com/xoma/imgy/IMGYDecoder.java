@@ -19,7 +19,8 @@ import java.io.*;
 import java.util.zip.InflaterOutputStream;
 
 public class IMGYDecoder {
-    private final File inputImage, outputFile;
+    private final File inputImage;
+    private File outputFile;
 
     private long fileSize = 0;
 
