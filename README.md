@@ -17,7 +17,7 @@ To encode, initialize the `IMGYEncoder` with the parameters input file, output i
 ```
 IMGYEncoder encoder = new IMGYEncoder(originalFile, processedFile, "PNG");
 
-// NOTE : Make sure you do not use the Encoder and Decoder because it may lead to FileNotFoundException
+// NOTE : Make sure you do not use the Encoder and Decoder at the same time on one file because it may lead to FileNotFoundException
 ```
 <br>
 
