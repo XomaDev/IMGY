@@ -1,7 +1,7 @@
 /*
 
-  Project : IMGY Encoder & Decoder
-  Author : Kumaraswamy B G / Xoma Devs
+  Project: IMGY Encoder & Decoder
+  Author: Kumaraswamy B G / Xoma Devs
   Date finished : 22 / 12 / 2020
 
   UPDATE 2.0.1
