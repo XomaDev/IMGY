@@ -1,5 +1,3 @@
-# IMGY
-
 <img src="https://imgy-android.vercel.app/iMGY.svg">
 
 ## Introduction
