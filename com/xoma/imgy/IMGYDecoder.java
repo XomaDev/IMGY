@@ -1,3 +1,15 @@
+/*
+
+  Project : IMGY Encoder & Decoder
+  Author : Kumaraswamy B G / Xoma Devs
+  Date finished : 22 / 12 / 2020
+
+  UPDATE 2.0.1
+
+  DO NOT REDISTRIBUTE | NOT FOR COMMERCIAL USE
+
+*/
+
 package com.xoma.imgy;
 
 import javax.imageio.ImageIO;
